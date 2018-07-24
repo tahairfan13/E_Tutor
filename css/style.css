@@ -1,0 +1,341 @@
+body {
+    color: #777;
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+    line-height: 1.7;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.my--btn
+{
+    border: 1px solid #e0d9d9;
+    background: white;
+    cursor: pointer;
+}
+.my--btn:hover
+{
+    background: #f4f4f5;
+}
+.my--btn--inner--div
+{
+    padding: 30px;
+
+}
+.main--content
+{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.profile--div
+{
+    margin-bottom: 50px;
+}
+.profile--thumbnail
+{
+    width: 100%;
+    border: 2px solid #e6e6e6;
+    border-radius: 4px;
+}
+.profile--thumbnail a
+{
+    color: #333;
+    text-decoration: none;
+}
+.profile--thumbnail a:hover, .profile--thumbnail a:focus, .profile--thumbnail a:visited {
+    color: #333;
+    text-decoration: none;
+}
+.profile--thumbnail .profile--img--container
+{
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+.profile-thumbnail .profile-img-container img {
+    width: 100%;
+}
+.profile--caption
+{
+    padding: 30px 60px;
+}
+.profile--thumbnail .profile--caption h2
+{
+    font-size: 24px;
+    line-height: 24px;
+    white-space: nowrap;
+}
+.profile--thumbnail .profile--caption span
+{
+    font-size: 14px;
+    line-height: 24px;
+}
+.btn
+{
+    outline: none!important;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #cd9c53;
+    border: 1px solid #cd9c53;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 5px;
+}
+.btn-small {
+    padding: 10px 15px;
+    margin-bottom: 32px;
+}
+.btn-small:hover, .btn-small:active, .btn-small:focus {
+    background-color: #333;
+    border: 1px solid #333;
+    color: #cd9c53!important;
+}
+.about--area {
+    background: #fff;
+    padding-bottom: 0px;
+}
+.section
+{
+    padding: 70px 0px;
+}
+.section--title {
+    margin: auto;
+    max-width: 800px;
+    margin-bottom: 50px;
+}
+.section--title h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 35px;
+    position: relative;
+    margin-top: 0;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+.section--title p
+{
+    margin-top: 20px;
+}
+.about-text .btn {
+    margin-top: 10px;
+}
+.btn.dark {
+    background-color: #85af4b;
+    color: #fff;
+}
+.btn.dark:hover {
+    color: #85af4b;
+    background-color: #fff;
+}
+.section--title h2:before {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: 0px;
+    background-color: #85af4b;
+}
+.single--service {
+    padding: 20px;
+    transition: 0.2s ease-out;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+}
+.single--service i.fa {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    line-height: 68px;
+    font-size: 30px;
+    border-radius: 50px;
+    background-color: #85af4b;
+    color: #fff;
+    clear: both;
+}
+.fa-star-o:before {
+    content: "\f006";
+}
+.single--service h3 {
+    display: block;
+}
+.single--service:hover {
+    border: 1px solid #85af4b;
+}
+.single--service:hover i.fa {
+    background-color: #fff;
+    color: #85af4b;
+    border: 1px solid #85af4b;
+}
+h3{
+    margin-bottom: 15px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+.tutor--searchbox{
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    height: 50px;
+    border:1px solid #eaeaea;
+    outline:none;
+}
+.tutor--searchbox:hover{
+    border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+.tutor--searchbox:focus{
+    border-color:#4d90fe;
+}
+
+.tutor--searchbutton{
+    border-radius: 2px;
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    color: #757575;
+    cursor: default;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 16px;
+    margin: 10px;
+    height:50px;
+}
+.tutor--searchbutton:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+.row .tutor--searchbox:before {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: 0px;
+    background-color: #85af4b;
+}
+.searchbox--inner--div
+{
+    display: flex;
+    justify-content: center;
+}
+.searchbox--container
+{
+    margin-top: 8%;
+    -webkit-box-shadow: 9px -5px 125px 1px rgba(136,204,133,0.76);
+-moz-box-shadow: 9px -5px 125px 1px rgba(136,204,133,0.76);
+box-shadow: 9px -5px 125px 1px rgba(136,204,133,0.76);
+}
+.contact--row {
+    max-width: 1000px;
+    margin: auto;
+}
+.contact--form {
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+.contact--form .form-group {
+    position: relative;
+    padding-left: 25px;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 25px;
+}
+.contact--form .form-group:before {
+    position: absolute;
+    height: 45px;
+    font-family: FontAwesome;
+    top: 0;
+    left: 0;
+    width: 15px;
+    text-align: center;
+    line-height: 45px;
+    color: #85af4b;
+}
+.form-control {
+    display: block;
+    border: 0px;
+    width: 100%;
+    height: 45px;
+    padding: 5px 0px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #333;
+    background-image: none;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.contact--form textarea#description {
+    padding-top: 10px;
+    height: 115px;
+}
+.in_name:before {
+    content: '\f007';
+}
+.in_email:before {
+    content: '\f1d8';
+}
+.in_description:before
+{
+    content: '\f1ea';
+}
+.in_tagline:before
+{
+    content: '\f0a1';
+}
+.in_major_subjects:before
+{
+    content: '\f02d';
+}
+.in_subject_description:before
+{
+    content: '\f02d';
+}
+/* .in_gender:before
+{
+    content: '\f183';
+}
+.in_female::before
+{
+    content: '\f182';
+} */
+.in_password:before
+{
+    content: '\f084';
+}
+.in_username:before
+{
+    content: '\f007';
+}
+.upload-button {
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    float: left;
+}
+
+.profile-pic {
+    /* max-width: 200px;
+    max-height: 200px; */
+    display: block;
+}
+
+.file-upload {
+    display: none;
+}
